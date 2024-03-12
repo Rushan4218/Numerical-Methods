@@ -21,9 +21,8 @@ float findRoot(float x0, float e, int iteration)
 
 int main()
 {
-
   float x0, e;
-
+  
   printf("Enter the initial point: ");
   scanf("%f", &x0);
   printf("Enter tolerable error: ");
