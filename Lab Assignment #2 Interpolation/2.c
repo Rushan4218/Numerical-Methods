@@ -9,7 +9,7 @@ double newtonsDDI(double x[], double y[], int n, double xi)
     dd[i] = y[i];
   }
   for (int i = 0; i < n; i++) {
-    for (int j = n - 1; j >= i + 1; j--) {
+    for (int j = n - 1; j > i; j--) {
       dd[j] = (dd[j] - dd[j - 1]) / (x[j] - x[j - 1 - i]);
     }
   }
