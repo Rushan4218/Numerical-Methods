@@ -2,6 +2,12 @@
 
 #include <stdio.h>
 
+int fact(int x)
+{
+  if (x <= 1)
+    return 1;
+  return x * fact(x - 1);
+}
 double newtonsFD(double x[], double y[], int n, double xi)
 {
 
@@ -30,6 +36,7 @@ double newtonsFD(double x[], double y[], int n, double xi)
     {
       fd[i] *= (s - j);
     }
+    fd[i] /= fact(i);
     v += fd[i];
   }
   return v;
