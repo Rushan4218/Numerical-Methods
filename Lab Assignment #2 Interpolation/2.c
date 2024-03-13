@@ -35,5 +35,4 @@ int main()
   double interpolatedValue = newtonsDDI(x, y, n, xi);
   printf("The interpolated value is %lf", interpolatedValue);
   return 0;
-
 }
