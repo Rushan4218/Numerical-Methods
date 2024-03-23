@@ -4,7 +4,6 @@
 
 int main()
 {
-  int n;
   double a, b, sx = 0, sx2 = 0, sy = 0, sxy = 0;
 
   double x[] = {1, 2, 3, 4, 5};
