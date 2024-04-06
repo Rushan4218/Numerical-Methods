@@ -3,7 +3,7 @@
 
 #define f(x) (sqrt(1-pow(x,2)))
 
-double simpson_onebythree(double x0, double x2)
+double simpsonOneByThree(double x0, double x2)
 {
     double I;
     double h = (x2 - x0) / 2;
@@ -19,8 +19,8 @@ int main()
     printf("Enter the value of lower limit and upper limit: ");
     scanf("%lf %lf", &x0, &x2);
 
-    double result = simpson_onebythree(x0, x2);
-    printf("The value of the integration is: %.6lf\n", result);
+    double result = simpsonOneByThree(x0, x2);
+    printf("The value of the integration is: %lf\n", result);
 
     return 0;
 }

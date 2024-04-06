@@ -1,12 +1,13 @@
 //	derivative using forward difference formula.
+
 #include <stdio.h>
+
 #define f(x) ((x) * (x))
 
 double derivative_forward(double h, double x)
 {
     double dx= (f(x + h) - f(x))/h;
     return dx;
-
 }
 
 int main()

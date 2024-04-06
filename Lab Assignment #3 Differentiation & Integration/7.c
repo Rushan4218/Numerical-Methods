@@ -1,10 +1,10 @@
-// composite trapezoidal rule
+// composite compositeTrapezoidal rule
 
 #include <stdio.h>
 #include <math.h>
 #define f(x) (exp(x))
 
-double com_trapezoidal(double x0, double x1, int k)
+double compositeTrapezoidal(double x0, double x1, int k)
 {
     double I;
     double h = (x1 - x0) / k;
@@ -25,6 +25,6 @@ int main()
     printf("enter the value of k: ");
     scanf("%d", &k);
 
-    double result = com_trapezoidal(x0, x1, k);
+    double result = compositeTrapezoidal(x0, x1, k);
     printf("The value of the Integration is: %lf\n", result);
 }

@@ -8,6 +8,7 @@ int fact(int x)
     return 1;
   return x * fact(x - 1);
 }
+
 double newtonsFD(double x[], double y[], int n, double xi)
 {
 

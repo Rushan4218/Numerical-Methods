@@ -1,7 +1,7 @@
-// backward DD
+// backward divided difference
 #include <stdio.h>
 
-double backward_DD(int n, double value, double x[], double f[])
+double backwardDividedDifference(int n, double value, double x[], double f[])
 {
     double bd[n];
     for (int i = 0; i < n; i++)
@@ -56,7 +56,7 @@ int main()
     double value;
     scanf("%lf", &value);
 
-    double result = backward_DD(n, value, x, f);
+    double result = backwardDividedDifference(n, value, x, f);
     printf("The value of the derivative is: %lf\n", result);
 
     return 0;
