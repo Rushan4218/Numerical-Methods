@@ -35,7 +35,6 @@ int main()
     double E[n];
     while (1)
     {
-
         for (int i = 0; i < n; i++)
         {
             double sum = B[i];

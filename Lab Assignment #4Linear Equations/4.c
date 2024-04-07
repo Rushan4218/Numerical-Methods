@@ -59,24 +59,6 @@ int main()
         matrixA[j][k] = matrixA[j][k] - constant * matrixA[i][k];
         matrixB[j][k] = matrixB[j][k] - constant * matrixB[i][k];
       }
-      printf("\nMatrix A:\n");
-      for (int i = 0; i < n; i++)
-      {
-        for (int j = 0; j < n; j++)
-        {
-          printf("%f\t", matrixA[i][j]);
-        }
-        printf("\n");
-      }
-      printf("\nReverse:\n");
-      for (int i = 0; i < n; i++)
-      {
-        for (int j = 0; j < n; j++)
-        {
-          printf("%f\t", matrixB[i][j]);
-        }
-        printf("\n");
-      }
     }
   }
 
@@ -89,24 +71,6 @@ int main()
       {
         matrixA[j][k] = matrixA[j][k] - constant * matrixA[i][k];
         matrixB[j][k] = matrixB[j][k] - constant * matrixB[i][k];
-        printf("\nMatrix A:\n");
-        for (int i = 0; i < n; i++)
-        {
-          for (int j = 0; j < n; j++)
-          {
-            printf("%f\t", matrixA[i][j]);
-          }
-          printf("\n");
-        }
-        printf("\nReverse:\n");
-        for (int i = 0; i < n; i++)
-        {
-          for (int j = 0; j < n; j++)
-          {
-            printf("%f\t", matrixB[i][j]);
-          }
-          printf("\n");
-        }
       }
     }
   }

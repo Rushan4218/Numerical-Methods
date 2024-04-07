@@ -57,6 +57,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%lf\n", newX[i]);
     }
-
+    
     return 0;
 }
