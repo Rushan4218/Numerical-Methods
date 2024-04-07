@@ -61,15 +61,6 @@ int main()
         {
           matrixB[j] = matrixB[j] - constant * matrixB[i];
         }
-        printf("\nMatrix A:\n");
-        for (int i = 0; i < n; i++)
-        {
-          for (int j = 0; j < n; j++)
-          {
-            printf("%f\t", matrixA[i][j]);
-          }
-          printf("\n");
-        }
       }
     }
   }
@@ -86,20 +77,6 @@ int main()
         if (k == n - 1)
         {
           matrixB[j] = matrixB[j] - constant * matrixB[i];
-        }
-        printf("\nMatrix A:\n");
-        for (int i = 0; i < n; i++)
-        {
-          for (int j = 0; j < n; j++)
-          {
-            printf("%f\t", matrixA[i][j]);
-          }
-          printf("\n");
-        }
-        printf("\nMatrixB:\n");
-        for (int i = 0; i < n; i++)
-        {
-          printf("%f\n", matrixB[i]);
         }
       }
     }
